@@ -28,3 +28,14 @@ p.h2{
     font-family:Arial,Helvetica,sans-serif;
     color:#b8a7b8;
 }
+
+/* 定义悬浮窗口样式 */
+#floating-box {
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
